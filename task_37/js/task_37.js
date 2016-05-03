@@ -22,6 +22,8 @@ window.onload = function(){
 	}
 	//点击登录显示loginBox
 	log.onclick = show;
+	//点击浮层关闭
+	mask.onclick = hide;
 	//点击右上角关闭
 	close.onclick = hide;
 	//初始化
